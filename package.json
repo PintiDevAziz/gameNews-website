@@ -1,0 +1,42 @@
+{
+  "name": "react-tailwind-jit-starter",
+  "version": "1.0.1",
+  "description": "This is basic react-vite Tailwindcss/jit stater pack",
+  "main": "./src",
+  "keywords": [
+    "react-tailwind",
+    "tailwind-jit-react",
+    "master jit stater",
+    "react-tailwind/jit",
+    "tailwindcss jit enabled"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "dev:css": "tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/index.css -w",
+    "build:css": "tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/index.css -m"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.0",
+    "react-content-loader": "^6.0.3",
+    "react-dom": "^17.0.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-lazyload": "^3.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.36.0",
+    "swiper": "^6.8.0",
+    "vite-react-tailwind-starter-eziz": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4",
+    "vite": "^2.2.3"
+  }
+}
